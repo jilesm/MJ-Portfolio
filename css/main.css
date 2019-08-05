@@ -4,7 +4,7 @@
 }
 
 body {
-    /* font-family: '' */
+    font-family: 'Playfair Display', serif;
     line-height: 1.6;
     background: white;
 }
@@ -48,6 +48,10 @@ img {
 .btn-dark {
     color: #fff;
     background-color: #4fbeff
+}
+
+.btn-size {
+    border: 2px solid black;
 }
 
 button[class ^="btn-"]:hover, a[class^="btn-"]:hover, input[class^="btn-"]:hover {
@@ -198,5 +202,72 @@ button[class ^="btn-"]:hover, a[class^="btn-"]:hover, input[class^="btn-"]:hover
     padding-bottom: 1rem;
 }
 
+@media (max-width: 1024px) {
+    #header-home {
+        height: 30rem; }
+
+    #header-home .header-content {
+          padding-top: 5rem; }
+
+    #home-b .stats {
+        display: block; }
+
+    #projects .container .projects-grid {
+        display: block; }
+
+    #projects .container .projects-grid .style {
+          margin: 2rem 0; }
+}
+
+@media (max-width: 500px) {
+    #main-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main-nav li {
+        padding: 1rem !important;
+    }
+
+    #logo {
+        text-align: center;
+        font-size: 2rem; }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+
+    .header-content a {
+          margin: 1rem;
+          width: 30vw; }
+          
+    #header-home {
+        height: 140vh; }
+
+    #home-a {
+        height: auto; }
+
+    #home-a .specials {
+          display: block; }
+
+    #home-a .specials div {
+            margin: 2rem 0; }
+
+    #projects {
+        margin: 0; }
+
+    #main-footer {
+        padding-top: 1rem;
+        height: 8rem; }
+
+    #main-footer .footer-content {
+          display: block;
+          text-align: center;
+          overflow: visible; }
+
+    #main-footer .footer-content .social {
+            margin: 2rem 0; }
+}
 
 
