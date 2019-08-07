@@ -113,7 +113,7 @@ button[class ^="btn-"]:hover, a[class^="btn-"]:hover, input[class^="btn-"]:hover
 #header-home .header-content {
     text-align: center;
     /* padding-top: 20%; */
-   transform:translate(-3em, 12em); 
+   transform:translate(-1em, 12em); 
 }
 
 #header-home .header-content h1 {
